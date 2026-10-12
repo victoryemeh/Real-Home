@@ -1,0 +1,33 @@
+:root {
+  /* Colors */
+  --color-navy-900: #0E1B3D;
+  --color-navy-800: #152A5C;
+  --color-brand-600: #2F6FED;
+  --color-brand-700: #2559C9;
+  --color-teal-400: #2FE6C7;
+  --color-surface: #F5F7FA;
+  --color-white: #FFFFFF;
+  --color-ink-900: #111827;
+  --color-ink-600: #4B5563;
+  --color-ink-400: #9CA3AF;
+  --color-border: #E5E7EB;
+  --color-star: #FBBF24;
+  --color-heart: #EF4444;
+
+  /* Typography */
+  --font-display: 'Plus Jakarta Sans', 'Sora', sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-lg: 16px;
+  --radius-pill: 9999px;
+
+  /* Shadow */
+  --shadow-card: 0 4px 20px rgba(16, 24, 40, 0.06);
+  --shadow-card-hover: 0 10px 30px rgba(16, 24, 40, 0.1);
+
+  /* Layout */
+  --container-max: 1280px;
+  --container-padding: 1.5rem;
+}

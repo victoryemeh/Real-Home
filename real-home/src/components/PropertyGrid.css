@@ -1,0 +1,22 @@
+.property-grid-section {
+  padding-top: 8rem;
+  padding-bottom: 6rem;
+}
+
+.property-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .property-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .property-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

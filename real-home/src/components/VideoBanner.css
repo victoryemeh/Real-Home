@@ -1,0 +1,55 @@
+.video-banner-wrap {
+  padding-block: 2rem;
+}
+
+.video-banner {
+  position: relative;
+  display: block;
+  height: 24rem;
+  width: 100%;
+  overflow: hidden;
+  border-radius: var(--radius-lg);
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.video-banner-video {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  background: #dfeaf5;
+}
+
+.video-banner-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(14, 27, 61, 0.1);
+  transition: background-color 0.2s ease;
+  pointer-events: none;
+}
+
+.video-banner:hover .video-banner-overlay {
+  background-color: rgba(14, 27, 61, 0.2);
+}
+
+.video-banner-play {
+  display: flex;
+  height: 4rem;
+  width: 4rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  box-shadow: var(--shadow-card-hover);
+}
+
+.video-banner-play svg {
+  transform: translateX(2px);
+  fill: var(--color-brand-600);
+  color: var(--color-brand-600);
+}
